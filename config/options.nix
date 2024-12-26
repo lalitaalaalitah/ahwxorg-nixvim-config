@@ -13,7 +13,7 @@
     # Search
     ignorecase = true;
     smartcase = true;
-  
+
     # Configure how new splits should be opened
     splitright = true;
     splitbelow = true;
@@ -32,7 +32,7 @@
     # System clipboard support, needs xclip/wl-clipboard
     clipboard = {
       providers = {
-        wl-copy.enable = true; # Wayland 
+        wl-copy.enable = true; # Wayland
         xsel.enable = true; # For X11
       };
       register = "unnamedplus";

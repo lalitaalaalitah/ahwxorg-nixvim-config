@@ -429,6 +429,7 @@
           "<space>" = "none";
         };
       };
+      showHiddenFiles = true;
     };
 
     undotree = {
