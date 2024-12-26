@@ -51,7 +51,7 @@
       enable = true;
     };
 
-    # Icons 
+    # Icons
     web-devicons.enable = true;
 
     sleuth = {
@@ -196,7 +196,7 @@
       enable = true;
     };
 
-    # Friendly Snippets 
+    # Friendly Snippets
     friendly-snippets = {
       enable = true;
     };
@@ -551,7 +551,7 @@
       openaiApiKey = "boop"; # TODO: add API key
       openaiModelId = "gpt-3.5-turbo";
       searchEngine = "duck_duck_go"; # | "google" | "stack_overflow" | "github" | "phind" | "perplexity";
-      # hooks.requestFinished = ""; # TODO: add notification here 
+      # hooks.requestFinished = ""; # TODO: add notification here
     };
 
     # Dashboard
@@ -604,7 +604,7 @@
           fetchingTimeout = 200;
           maxViewEntries = 30;
         };
-        snippet = { 
+        snippet = {
           expand = ''
             function(args)
               require('luasnip').lsp_expand(args.body)
@@ -677,7 +677,7 @@
     };
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
-    }; 
+    };
 
     lspkind = {
       enable = true;
@@ -839,7 +839,7 @@
       Event = "",
       Operator = "",
       TypeParameter = "",
-    } 
+    }
 
     local cmp = require'cmp'
 
@@ -874,7 +874,8 @@
   -- }
        })  '';
 
-  colorschemes.oxocarbon.enable = true;
+  # colorschemes.oxocarbon.enable = true;
+  colorschemes.catppuccin.enable = true;
 
   # colorschemes.catppuccin = {
   #   enable = true;
