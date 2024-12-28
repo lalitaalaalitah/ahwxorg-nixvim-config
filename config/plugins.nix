@@ -427,7 +427,7 @@
         autoExpandWidth = false;
         mappings = {
           "<space>" = "none";
-          "H" = "toggle_hidden"; // Add this line to map 'H' to toggle hidden files
+          "H" = "toggle_hidden"; # Add this line to map 'H' to toggle hidden files
         };
       };
       showHiddenFiles = true;
