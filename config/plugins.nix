@@ -430,7 +430,7 @@
           "H" = "toggle_hidden"; # Add this line to map 'H' to toggle hidden files
         };
       };
-      showHiddenFiles = true;
+      # showHiddenFiles = true; # Doesn't work
     };
 
     undotree = {
